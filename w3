@@ -7,6 +7,8 @@ W3 HTML grab codes - Try to use lower case in codes.
 </head>
 
 <Body style="background-color:lavender">
+
+<p><a href="#S2">Jump to Section 2</a></p>
 <h1 style="text-align:center"> Heading size 1 Largest at centre align.</h1>
 <h2> Heading size 2</h2>
 <h3> Heading size 3</h3>
@@ -17,9 +19,22 @@ W3 HTML grab codes - Try to use lower case in codes.
 <p title="This is the title section where you can write something to hover over the paragraph.> Paragraph example. Hyperlinks in html use an a tag. <a href="LINK"> Word/s to be linked</a> 
 When using quotes for things like links you can use single or double quotes, however, if there is a quote inside the quote use the opposite to what the quote uses as either double or single quotes to make the code understandable to the machine rendering it.</p>
 
-<p style="font-family:courier"> Another paragraph, this time with the courier font. Image code: <img src="w3schools.jpg" alt="W3Schools.com" width="50" height="100"> IMAGE shrinks or pulls to fit the size allocated.</p>
+<p style="font-family:courier"> Another paragraph, this time with the courier font. Image code: <img src="w3schools.jpg" alt="W3Schools.com" width="50" height="100"> IMAGE shrinks or pulls to fit the size allocated.
+ALWAYS specify the size of the picture otherwise the page will flicker white. The image code does not have a close. <img src="wrongname.gif" alt="HTML5 Icon" style="width:128px;height:128px;"> The ALT tag shows is the image is missing, has a slow connection, coding error or is being used by a blind person using a page reader. I intend to use this as much as possible. Alt is good for the blind, visually impaired or learning disabled. 
+Style tags are better then width and height because it conforms universally throughout the site and also prevents automatic and unwanted image stretch.</p>
+Images can be stored in folders as well as the page, images need to be linked in if they are from other folders or directories. <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;"> Even images from other sites:  <img src="http://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"> 
 
-<br> <p> Breaks are different from paragraphs. A break was used before this paragraph. hr code creates a horizontal line to act as a breaker. Hr code and br codes do not require closes.
+<p>Image maps can be useful for things like world explore section. <img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+</p>
+
+<p> Breaks are different from paragraphs. 
+<br>A break was used before this sentence. hr code creates a horizontal line to act as a breaker. Hr code and br codes do not require closes.
 
 <h2 style="color:pink">I am Pink</h2>
 <h2 style="color:purple">I am Purple, these preset colours do not need hex code.</h2> </p>
@@ -30,7 +45,18 @@ Pre means preformatted text and it keeps details about         spacing        an
 line breaks.
 </pre>
 
+<h2 id="S2">Section 2</h2>
+
+
+
+
+
+
 </body>
+
+
+
+
 
 </html>
 
