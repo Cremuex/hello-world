@@ -1,0 +1,36 @@
+W3 HTML grab codes - Try to use lower case in codes.
+
+<!doctype hmtl> (Indicates the use of html5)
+<html lang="en-US">
+<head>
+<title>Title code does not appear on page. ONLY THOSE IN THE BODY BRACKETS ARE VISIBLE.</title>
+</head>
+
+<Body style="background-color:lavender">
+<h1 style="text-align:center"> Heading size 1 Largest at centre align.</h1>
+<h2> Heading size 2</h2>
+<h3> Heading size 3</h3>
+<h4> Heading size 4</h4>
+<h5> Heading size 5</h5>
+<h6> Heading Size 6 Smallest</h6>
+
+<p title="This is the title section where you can write something to hover over the paragraph.> Paragraph example. Hyperlinks in html use an a tag. <a href="LINK"> Word/s to be linked</a> 
+When using quotes for things like links you can use single or double quotes, however, if there is a quote inside the quote use the opposite to what the quote uses as either double or single quotes to make the code understandable to the machine rendering it.</p>
+
+<p style="font-family:courier"> Another paragraph, this time with the courier font. Image code: <img src="w3schools.jpg" alt="W3Schools.com" width="50" height="100"> IMAGE shrinks or pulls to fit the size allocated.</p>
+
+<br> <p> Breaks are different from paragraphs. A break was used before this paragraph. hr code creates a horizontal line to act as a breaker. Hr code and br codes do not require closes.
+
+<h2 style="color:pink">I am Pink</h2>
+<h2 style="color:purple">I am Purple, these preset colours do not need hex code.</h2> </p>
+<hr>
+
+<pre>
+Pre means preformatted text and it keeps details about         spacing        and 
+line breaks.
+</pre>
+
+</body>
+
+</html>
+
